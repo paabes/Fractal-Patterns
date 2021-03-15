@@ -22,7 +22,7 @@ with different coefficients, that transform the x-y coordinates in a specific wa
 
 ![alt text](https://github.com/paabes/Fractal-Patterns/blob/main/renders/probability_distribution.png "Coefficients")
 
-Running the code with marker size **s = 0.2** and 100,000 points gives us the following plot:
+* Running the code with marker size **s = 0.2** and 100,000 points gives us the following plot:
 
 ![alt text](https://github.com/paabes/Fractal-Patterns/blob/main/renders/Barnsley%20Fern%204k.jpg "fern")
 
@@ -34,7 +34,7 @@ Running the code with marker size **s = 0.2** and 100,000 points gives us the fo
 
 If you are not familiar with complex dynamics, the idea behind **Julia Set** will be impossible to explain in few lines, for it is not as intuitive as Barnsley Fern, while if you do know a thing or two about complex dynamics, you've almost certainly come across julia set before, so there is no point in explaining.
 
-In brief what julia.py does is the following: For each point, z0, in the complex plane such that −2 ≤ Re[z0]≤ 2 and −2 ≤ Im[z0] ≤ 2, it iterates according to zn+1=z2n+c where c is some (complex) constant. It then colours the pixel in an image corresponding to this region of the complex plane according to the number of iterations required for |z|to exceed some critical value, |z|max (or black if this does not happen before a certain maxmimum number of iterations nmax). Running this code produces the following image:
+* In brief what julia.py does is the following: For each point, z0, in the complex plane such that −2 ≤ Re[z0]≤ 2 and −2 ≤ Im[z0] ≤ 2, it iterates according to zn+1=z2n+c where c is some (complex) constant. It then colours the pixel in an image corresponding to this region of the complex plane according to the number of iterations required for |z|to exceed some critical value, |z|max (or black if this does not happen before a certain maxmimum number of iterations nmax). Running this code produces the following image:
 
 ![alt text](https://github.com/paabes/Fractal-Patterns/blob/main/renders/Julia%20Set%204k.png "Julia Set")
 
