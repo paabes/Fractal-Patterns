@@ -47,7 +47,7 @@ ytick_labels = np.linspace(ymin, ymax, yheight * 2)
 plt.title('Julia Set ©Paabes', color='mediumslateblue')
 ax.set_yticks([(y-ymin) / yheight * im_height for y in ytick_labels])
 ax.set_yticklabels(['{:.1f}'.format(ytick) for ytick in ytick_labels], color='mediumslateblue')
-plt.savefig('renders/julia_set.png', dpi=600)
+#plt.savefig('renders/julia_set.png', dpi=600)
 plt.show()
 
 toc = time.perf_counter()
